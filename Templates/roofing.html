@@ -1,10 +1,129 @@
+{% extends 'Project_Template.html' %}
+
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% block content %}
 
-</body>
-</html>
+<body>
+    <section id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Roofing</h2>
+            <hr class="my-4">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-6 text-center">
+              <p class="text-muted mb-0">
+Valley Builders offers full roofing repair and building services. We can assist with patching and spot repairs or we can remove your current roof and replace it with a brand new one. We build stucco, shingle, aluminum and most types of wood. Your roof is vital to the well being of your home. Any imperfections or the slightest damage can compromise your home's energy efficiency and your family's safety. Allergens, invading critters like mice, rats and insects can make their way into your home through a damaged roof. And your energy bill can take quite a hit as well from the loss of hot and cool inside air. A poorly sealed roof allows hot and cold air to escape during they seasons. Hot air coming while the AC is running can make it work harder, risking more wear and tear on that appliance as well as causing your electricity bill to soar.
+              </p>
+              <p>  </p>
+              <p class = "text-muted mb-0">
+When you make the call to Valley Builders, we will come out and assess the state of your current roof. We will openly and honestly discuss the best options that not only will leave you with a perfect roof, but will also fit your budget. You may only need a reseal or a patch. Other companies can pressure customers to make unnecessary decisions that can hurt them in the long run. We want you to make the right decision and work with you to make the right ones. We aren't out to make a buck, we are out to make sure that you and your family is safe. We use only top-quality materials and safe, state approved building practices. And while your roof is a necessary home component, we also make it fit the overall look of your home. The aesthetic is just as important as the function when it comes to your roof. Call us today and let us show you options and give you a free estimate on your new roof.
+              </p>
+            </div>
+            <div class="col-lg-6 text-center text-muted">
+                <h4>Before</h4>
+                    <div class="tz-gallery">
+                        <div class="center">
+                                <a class="lightbox" href="{% static 'img/portfolio/fullsize/roofing/before.jpg' %}">
+                                <img src="{% static 'img/portfolio/fullsize/roofing/before.jpg' %}" class="center">
+                                </a>
+                        </div>
+                    </div>
+                <h4>After</h4>
+                    <div class="tz-gallery">
+                        <div class="center">
+                                <a class="lightbox" href="{% static 'img/portfolio/fullsize/roofing/after.jpg' %}">
+                                <img src="{% static 'img/portfolio/fullsize/roofing/after.jpg' %}" class="center">
+                                </a>
+                        </div>
+                    </div>
+            </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    </body>
+
+
+<div class="container gallery-container">
+    <div class="tz-gallery">
+
+        <div class="row mb-3">
+            <div class="col-md-4">
+                <div class="card">
+                    <a class="lightbox" href="{% static 'img/portfolio/fullsize/roofing/1.jpg' %}">
+                    <img src="{% static 'img/portfolio/fullsize/roofing/1.jpg' %}" class="card-img-top">
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <a class="lightbox" href="{% static 'img/portfolio/fullsize/roofing/2.jpg' %}">
+                    <img src="{% static 'img/portfolio/fullsize/roofing/2.jpg' %}" class="card-img-top">
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <a class="lightbox" href="{% static 'img/portfolio/fullsize/roofing/3.jpg' %}">
+                    <img src="{% static 'img/portfolio/fullsize/roofing/3.jpg' %}" class="card-img-top">
+                    </a>
+                </div>
+            </div>
+        </div>
+          <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <a class="lightbox" href="{% static 'img/portfolio/fullsize/roofing/4.jpg' %}">
+                    <img src="{% static 'img/portfolio/fullsize/roofing/4.jpg' %}" class="card-img-top">
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <a class="lightbox" href="{% static 'img/portfolio/fullzise/roofing/5.jpg' %}">
+                    <img src="{% static 'img/portfolio/fullsize/roofing/5.jpg' %}" class="card-img-top">
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <a class="lightbox" href="{% static 'img/portfolio/fullsize/roofing/6.jpg' %}">
+                    <img src="{% static 'img/portfolio/fullsize/roofing/6.jpg' %}" alt="Park" class="card-img-top">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src=" {%static 'vendor/jquery/jquery.min.js' %}"></script>
+    <script src="{%static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="{%static 'vendor/jquery-easing/jquery.easing.min.js' %}"></script>
+    <script src="{%static 'vendor/scrollreveal/scrollreveal.min.js' %}"></script>
+    <script src="{%static 'vendor/magnific-popup/jquery.magnific-popup.min.js' %}"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.tz-gallery');
+    </script>
+
+
+    {% endblock %}

@@ -1,10 +1,131 @@
+{% extends 'Project_Template.html' %}
+
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% block content %}
 
-</body>
-</html>
+<body>
+    <section id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Expanding</h2>
+            <hr class="my-4">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-6 text-center">
+              <p class="text-muted mb-0">
+                Are you feeling a little cramped in your current space? Considering buying a new house?  Valley Builders can offer you a much more cost effective alternative.  Additions are a great way to increase your overall space and save money while doing it.  Whether you are expecting a new family edition, want a formal dining room or even a home gym, you can do it just by expanding your current space, adding on to your home or converting your garage.  Additions can actually EARN you money by adding to the overall worth of your home.
+              </p>
+              <p>  </p>
+              <p class = "text-muted mb-0">
+                  Our builders and designers are not only skilled but well versed in the building codes and laws governed by our city and state.  We can guide you to the right addition that will give you maximum effectiveness, while making your home worth more money.  Our designers will help you find the right lighting options, assist with any plumbing installation and even offer up paint color and room décor.  Call us today for a free estimate on your room addition ambitions, and transform your ideas into reality.
+              </p>
+            </div>
+            <div class="col-lg-6 text-center text-muted">
+                <h5>Before</h5>
+                    <div class="tz-gallery">
+                                <a class="lightbox" href="{% static 'img/portfolio/fullsize/additions/before.jpg' %}">
+                                <img src="{% static 'img/portfolio/fullsize/additions/before.jpg' %}" border="0" alt="" width="180" height="120" >
+                                </a>
+
+                    </div>
+                <h5>During</h5>
+                    <div class="tz-gallery">
+                        <a class="lightbox" href="{% static 'img/portfolio/fullsize/additions/during.jpg' %}">
+                        <img src="{% static 'img/portfolio/fullsize/additions/during.jpg' %}" border="0" alt="" width="180" height="120" >
+                        </a>
+                    </div>
+                <h5>After</h5>
+                    <div class="tz-gallery">
+                        <a class="lightbox" href="{% static 'img/portfolio/fullsize/additions/after.jpg' %}">
+                        <img src="{% static 'img/portfolio/fullsize/additions/after.jpg' %}" border="0" alt="" width="180" height="120" >
+                        </a>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    </section>
+    </body>
+
+<div class="container gallery-container">
+    <div class="tz-gallery">
+
+        <div class="row mb-3">
+            <div class="col-md-4">
+                <div class="card">
+                    <a class="lightbox" href="{% static 'img/portfolio/fullsize/additions/1.jpg' %}">
+                    <img src="{% static 'img/portfolio/fullsize/additions/1.jpg' %}" class="card-img-top">
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <a class="lightbox" href="{% static 'img/portfolio/fullsize/additions/2.jpg' %}">
+                    <img src="{% static 'img/portfolio/fullsize/additions/2.jpg' %}" class="card-img-top">
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <a class="lightbox" href="{% static 'img/portfolio/fullsize/additions/3.jpg' %}">
+                    <img src="{% static 'img/portfolio/fullsize/additions/3.jpg' %}" class="card-img-top">
+                    </a>
+                </div>
+            </div>
+        </div>
+          <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <a class="lightbox" href="{% static 'img/portfolio/fullsize/additions/4.jpg' %}">
+                    <img src="{% static 'img/portfolio/fullsize/additions/4.jpg' %}" class="card-img-top">
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <a class="lightbox" href="{% static 'img/portfolio/fullsize/additions/5.jpg' %}">
+                    <img src="{% static 'img/portfolio/fullsize/additions/5.jpg' %}" class="card-img-top">
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <a class="lightbox" href="{% static 'img/portfolio/fullsize/additions/6.jpg' %}">
+                    <img src="{% static 'img/portfolio/fullsize/additions/6.jpg' %}" alt="Park" class="card-img-top">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src=" {%static 'vendor/jquery/jquery.min.js' %}"></script>
+    <script src="{%static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="{%static 'vendor/jquery-easing/jquery.easing.min.js' %}"></script>
+    <script src="{%static 'vendor/scrollreveal/scrollreveal.min.js' %}"></script>
+    <script src="{%static 'vendor/magnific-popup/jquery.magnific-popup.min.js' %}"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.tz-gallery');
+    </script>
+
+
+    {% endblock %}

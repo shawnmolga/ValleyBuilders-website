@@ -1,10 +1,147 @@
+{% extends 'Project_Template.html' %}
+
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% block content %}
 
-</body>
+<body>
+    <section id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Flooring</h2>
+            <hr class="my-4">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+              <p class="text-muted mb-0">
+                Valley Builders offers a wide array of flooring types. Whatever your style or need, we can match it to complete the overall look of your home.  We install flooring for kitchen, bathroom, family rooms and even for room additions and garage conversions.  We make sure your flooring is sealed to withstand water and heavy traffic.  And if you are looking to carpet your home, we can help with that too!  We can help you find the right color, texture and make of carpet that will not only fit your home’s visual asthetic, but the functional need as well!
+              </p>
+              <p>  </p>
+            </div>
+
+                <div class = "col-lg-4">
+
+                </div>
+                <div class = "col-lg-4">
+                    <p align = left class = "text-muted mb-0">
+                We offer:
+                <li align = left class = "text-muted mb-0"> Hardwood </li>
+                <li align = left class = "text-muted mb-0"> stone and ceramic tile </li>
+                <li align = left class = "text-muted mb-0"> cement </li>
+                <li align = left class = "text-muted mb-0"> congoleum</li>
+                <li align = left class = "text-muted mb-0"> laminate</li>
+                <li align = left class = "text-muted mb-0"> wood laminate</li>
+                <li align = left class = "text-muted mb-0"> vinyl </li>
+                <li align = left class = "text-muted mb-0"> carpeting </li>
+                <li align = left class = "text-muted mb-0"> stone slab</li>
+                </div>
+                <div class = "col-lg-4">
+                </div>
+            <div class = "row">
+                <div class="col-lg-12 text-center">
+                <p>  </p>
+                <p class = "text-muted mb-0"> Choose your colors, your textures and let us do the rest!  Our team of technicians work fast and efficiently to lay down your new floor and make sure it looks perfect.  Prior to installation, we inspect your subfloor to make sure it is sound.  If need be, we will make the necessary repairs.  We then install the flooring.  Because our technicians are trained, they can complete the job on time, EVERYTIME!  We work with our customers to ensure that their flooring is exactly what they want.
+              </p>
+            </div>
+        </div>
+      </div>
+    </section>
+    </body>
+
+
+<div class="container gallery-container">
+    <div class="tz-gallery">
+
+        <div class="row mb-3">
+            <div class="col-md-4">
+                <div class="card">
+                    <a class="lightbox" href="{% static 'img/portfolio/fullsize/floors/1.jpg' %}">
+                    <img src="{% static 'img/portfolio/fullsize/floors/1.jpg' %}" class="card-img-top">
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <a class="lightbox" href="{% static 'img/portfolio/fullsize/floors/2.jpg' %}">
+                    <img src="{% static 'img/portfolio/fullsize/floors/2.jpg' %}" class="card-img-top">
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <a class="lightbox" href="{% static 'img/portfolio/fullsize/floors/3.jpg' %}">
+                    <img src="{% static 'img/portfolio/fullsize/floors/3.jpg' %}" class="card-img-top">
+                    </a>
+                </div>
+            </div>
+        </div>
+          <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <a class="lightbox" href="{% static 'img/portfolio/fullsize/floors/4.jpg' %}">
+                    <img src="{% static 'img/portfolio/fullsize/floors/4.jpg' %}" class="card-img-top">
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <a class="lightbox" href="{% static 'img/portfolio/fullsize/floors/5.jpg' %}">
+                    <img src="{% static 'img/portfolio/fullsize/floors/5.jpg' %}" class="card-img-top">
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <a class="lightbox" href="{% static 'img/portfolio/fullsize/floors/6.jpg' %}">
+                    <img src="{% static 'img/portfolio/fullsize/floors/6.jpg' %}" alt="Park" class="card-img-top">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src=" {%static 'vendor/jquery/jquery.min.js' %}"></script>
+    <script src="{%static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="{%static 'vendor/jquery-easing/jquery.easing.min.js' %}"></script>
+    <script src="{%static 'vendor/scrollreveal/scrollreveal.min.js' %}"></script>
+    <script src="{%static 'vendor/magnific-popup/jquery.magnific-popup.min.js' %}"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.tz-gallery');
+    </script>
+
+
+    {% endblock %}
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src=" {%static 'vendor/jquery/jquery.min.js' %}"></script>
+    <script src="{%static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="{%static 'vendor/jquery-easing/jquery.easing.min.js' %}"></script>
+    <script src="{%static 'vendor/scrollreveal/scrollreveal.min.js' %}"></script>
+    <script src="{%static 'vendor/magnific-popup/jquery.magnific-popup.min.js' %}"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="{%static 'js/creative.min.js' %}"></script>
+
 </html>

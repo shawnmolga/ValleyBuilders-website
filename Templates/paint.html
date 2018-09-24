@@ -1,10 +1,133 @@
+{% extends 'Project_Template.html' %}
+
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% block content %}
 
-</body>
+<body>
+    <section id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Paint Jobs</h2>
+            <hr class="my-4">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+            <h4 class="text-muted mb-0">Exterior Paint</h4>
+              <p class="text-muted mb-0">
+                Your home’s outer appearance is very important.  A good coat of paint not sets a good example of your personal style, but it also protects your home from the elements.  Valley Builders offers full exterior painting services.  We help you find the right color paint to make your house stand out!  We use top quality paints and even offer Tex Cote painting services. Tex Cote is a durable exterior paint that helps to deflect the harsh UV rays of the sun.  These rays, over time can diminish the luster of your home’s exterior color and begin to damage the wood or siding of your home. Tex Cote provides a strong barrier that allows your paint job to remain vibrant and fresh while protecting your home’s outer material.  Our team of painters works fast and efficiently to ensure that your home’s exterior is perfect!
+              </p>
+              <p>  </p>
+
+
+<div class="container gallery-container">
+    <div class="tz-gallery">
+        <div class = "row">
+            <div class="col-md-6">
+                <div class="card">
+                    <a class="lightbox" href="{% static 'img/portfolio/fullsize/paint/before2.jpg' %}">
+                    <img src="{% static 'img/portfolio/fullsize/paint/before2.jpg' %}" class="card-img-top">
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <a class="lightbox" href="{% static 'img/portfolio/fullsize/paint/after2.jpg' %}">
+                    <img src="{% static 'img/portfolio/fullsize/paint/after2.jpg' %}" class="card-img-top">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+            <hr class="my-4">
+
+    <h4 class="text-muted mb-0">Interior Paint</h4>
+
+      <p class = "text-muted mb-0">
+         While painting the interior of your home may seem like a simple and cost saving project, many quickly find it can be the opposite. With our busy and hectic schedules, finding the time to set aside to do a good paint job is difficult. That is where Valley Builders comes in! We work quickly and accurately; and most importantly, we work WITHIN YOUR BUDGET! We provide protection to your furniture and flooring as we paint and do full clean up when we are done. No brushes to clean, no paint spots to try and get rid of; just a gorgeous paint job wrapped up and ready for you to enjoy! We will help you choose the right colors to match your décor and suggest what types of paints work best in each room. Water tight, crayon resistant and color fade resistant are all considerations that we take.
+
+    <div class="container gallery-container">
+        <div class="tz-gallery">
+            <div class="row">
+            <div class="col-md-3">
+                <h2>  </h2>
+                <h4 align="center" class = "text-muted mb-0">Before</h4>
+                <div class="card">
+                    <a class="lightbox" href="{% static 'img/portfolio/fullsize/paint/before.jpg' %}">
+                    <img src="{% static 'img/portfolio/fullsize/paint/before.jpg' %}" class="card-img-top">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                    <h2>  </h2>
+                    <h4 align="center" class = "text-muted mb-0">After</h4>
+                    <a class="lightbox" href="{% static 'img/portfolio/fullsize/paint/after.jpg' %}">
+                    <img src="{% static 'img/portfolio/fullsize/paint/after.jpg' %}" class="card-img-top">
+                    </a>
+            </div>
+
+            <div class="col-md-3">
+                    <h2>  </h2>
+                    <h4 align="center" class = "text-muted mb-0">Before</h4>
+                    <a class="lightbox" href="{% static 'img/portfolio/fullsize/paint/before1.jpg' %}">
+                    <img src="{% static 'img/portfolio/fullsize/paint/before1.jpg' %}" class="card-img-top">
+                    </a>
+            </div>
+
+                <div class="col-md-3">
+                    <h2>  </h2>
+                    <h4 align="center" class = "text-muted mb-0">After</h4>
+                    <a class="lightbox" href="{% static 'img/portfolio/fullsize/paint/after1.jpg' %}">
+                    <img src="{% static 'img/portfolio/fullsize/paint/after1.jpg' %}" class="card-img-top">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+      </div>
+      </div>
+    </section>
+    </body>
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src=" {%static 'vendor/jquery/jquery.min.js' %}"></script>
+    <script src="{%static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="{%static 'vendor/jquery-easing/jquery.easing.min.js' %}"></script>
+    <script src="{%static 'vendor/scrollreveal/scrollreveal.min.js' %}"></script>
+    <script src="{%static 'vendor/magnific-popup/jquery.magnific-popup.min.js' %}"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.tz-gallery');
+    </script>
+
+
+    {% endblock %}
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src=" {%static 'vendor/jquery/jquery.min.js' %}"></script>
+    <script src="{%static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="{%static 'vendor/jquery-easing/jquery.easing.min.js' %}"></script>
+    <script src="{%static 'vendor/scrollreveal/scrollreveal.min.js' %}"></script>
+    <script src="{%static 'vendor/magnific-popup/jquery.magnific-popup.min.js' %}"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="{%static 'js/creative.min.js' %}"></script>
+
 </html>
