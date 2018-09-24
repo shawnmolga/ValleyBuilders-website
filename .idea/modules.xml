@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/ValleyBuilders-website.iml" filepath="$PROJECT_DIR$/.idea/ValleyBuilders-website.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ValleyBuilders2/.idea/ValleyBuilders2.iml" filepath="$PROJECT_DIR$/../ValleyBuilders2/.idea/ValleyBuilders2.iml" />
     </modules>
   </component>
 </project>

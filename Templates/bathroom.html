@@ -1,10 +1,145 @@
+{% extends 'Project_Template.html' %}
+
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% block content %}
 
-</body>
+<body>
+    <section id="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Bathroom Remodeling</h2>
+            <hr class="my-4">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-6 text-center">
+              <p class="text-muted mb-0">
+                  Valley Builders knows all about quality bathroom remodels.  We pride ourselves on our ability to apply our design aesthetic and creativity to transform a regular bathroom into a functional work of art.   There is nothing more relaxing than soaking in a whirlpool tub or taking a soothing shower in a state-of-the art walk in shower.  These are not distant dreams; they are realities that your current bathroom can become.  We can install all types of bathroom fixtures and custom design a new bathroom around them.  Custom cabinets and storage, elegant vanities, mosaic tiles, hardwood and brushed chrome accents; whatever you can think up, we can make a reality.
+              </p>
+              <p>  </p>
+              <p class = "text-muted mb-0">
+                  We can install specialty items such as handicapped accessible fixtures and utilities as well as special heating and lighting systems.  You are only limited by your own creativity.  Valley Builders will work closely with you to determine the right bathroom design for your budget.  We will keep you updated on all the work taking place and make sure that the entire process goes to plan.
+              </p>
+            </div>
+            <div class="col-lg-3 text-center text-muted">
+                <h4>Before</h4>
+                    <div class="tz-gallery">
+                        <div class="center">
+                                <a class="lightbox" href="{% static 'img/portfolio/fullsize/bathroom/before.jpg' %}">
+                                <img src="{% static 'img/portfolio/thumbnails/bathroom/before.jpg' %}" class="center">
+                                </a>
+                        </div>
+                    </div>
+            </div>
+            <div class="col-lg-3 text-center text-muted">
+                <h4>After</h4>
+                    <div class="tz-gallery">
+                        <div class="row">
+                                <a class="lightbox" href="{% static 'img/portfolio/fullsize/bathroom/after.jpg' %}">
+                                <img src="{% static 'img/portfolio/thumbnails/bathroom/after.jpg' %}" class="center">
+                                </a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    </body>
+
+
+<div class="container gallery-container">
+    <div class="tz-gallery">
+
+        <div class="row mb-3">
+            <div class="col-md-4">
+                <div class="card">
+                    <a class="lightbox" href="{% static 'img/portfolio/fullsize/bathroom/1.jpg' %}">
+                    <img src="{% static 'img/portfolio/fullsize/bathroom/1.jpg' %}" class="card-img-top">
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <a class="lightbox" href="{% static 'img/portfolio/fullsize/bathroom/2.jpg' %}">
+                    <img src="{% static 'img/portfolio/fullsize/bathroom/2.jpg' %}" class="card-img-top">
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <a class="lightbox" href="{% static 'img/portfolio/fullsize/bathroom/3.jpg' %}">
+                    <img src="{% static 'img/portfolio/fullsize/bathroom/3.jpg' %}" class="card-img-top">
+                    </a>
+                </div>
+            </div>
+        </div>
+          <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <a class="lightbox" href="{% static 'img/portfolio/fullsize/bathroom/4.jpg' %}">
+                    <img src="{% static 'img/portfolio/fullsize/bathroom/4.jpg' %}" class="card-img-top">
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <a class="lightbox" href="{% static 'img/portfolio/fullsize/bathroom/5.jpg' %}">
+                    <img src="{% static 'img/portfolio/fullsize/bathroom/5.jpg' %}" class="card-img-top">
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <a class="lightbox" href="{% static 'img/portfolio/fullsize/bathroom/6.jpg' %}">
+                    <img src="{% static 'img/portfolio/fullsize/bathroom/6.jpg' %}" alt="Park" class="card-img-top">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src=" {%static 'vendor/jquery/jquery.min.js' %}"></script>
+    <script src="{%static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="{%static 'vendor/jquery-easing/jquery.easing.min.js' %}"></script>
+    <script src="{%static 'vendor/scrollreveal/scrollreveal.min.js' %}"></script>
+    <script src="{%static 'vendor/magnific-popup/jquery.magnific-popup.min.js' %}"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.tz-gallery');
+    </script>
+
+
+    {% endblock %}
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src=" {%static 'vendor/jquery/jquery.min.js' %}"></script>
+    <script src="{%static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="{%static 'vendor/jquery-easing/jquery.easing.min.js' %}"></script>
+    <script src="{%static 'vendor/scrollreveal/scrollreveal.min.js' %}"></script>
+    <script src="{%static 'vendor/magnific-popup/jquery.magnific-popup.min.js' %}"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="{%static 'js/creative.min.js' %}"></script>
+
 </html>
