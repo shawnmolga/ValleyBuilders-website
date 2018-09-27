@@ -3,15 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="a7fab712-49bc-4f66-aecb-901609b30f4f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/expanding.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/expanding.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/static/css/creative.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/static/css/creative.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/static/css/creative.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/static/css/creative.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/static/scss/_masthead.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/static/scss/_masthead.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/creative.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/creative.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/creative.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/creative.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/bgunder.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/construction_helmet.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/portfolio/fullsize/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/portfolio/fullsize/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/portfolio/thumbnails/9.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/portfolio/thumbnails/9.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/scss/_masthead.scss" beforeDir="false" afterPath="$PROJECT_DIR$/static/scss/_masthead.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,7 +35,7 @@
         <counts>
           <entry key="css" value="3" />
           <entry key="html" value="22" />
-          <entry key="jpg" value="17" />
+          <entry key="jpg" value="21" />
           <entry key="js" value="2" />
           <entry key="py" value="7" />
           <entry key="scss" value="1" />
@@ -47,7 +46,7 @@
         <counts>
           <entry key="CSS" value="3" />
           <entry key="HTML" value="22" />
-          <entry key="Image" value="17" />
+          <entry key="Image" value="21" />
           <entry key="JavaScript" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Python" value="7" />
@@ -57,7 +56,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="100" />
-          <entry key="html" value="3702" />
+          <entry key="html" value="4016" />
           <entry key="js" value="2" />
           <entry key="py" value="136" />
           <entry key="scss" value="25" />
@@ -68,7 +67,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="100" />
-          <entry key="HTML" value="3702" />
+          <entry key="HTML" value="4016" />
           <entry key="JavaScript" value="2" />
           <entry key="PLAIN_TEXT" value="47" />
           <entry key="Python" value="136" />
@@ -79,16 +78,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/img/head.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="67" column="53" lean-forward="true" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
+            <state relative-caret-position="134">
+              <caret line="135" column="12" lean-forward="true" selection-start-line="135" selection-start-column="12" selection-end-line="135" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -126,6 +120,8 @@
       <find>bgunder.jpg</find>
       <find>construction_helmet.jpg</find>
       <find>head.jpg</find>
+      <find>header.jpg</find>
+      <find>check us</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -139,6 +135,7 @@
       <replace>construction_helmet.jpg</replace>
       <replace>head.jpg</replace>
       <replace>header.jpg</replace>
+      <replace>background.jpg</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Users\shawn\PycharmProjects\ValleyBuilders-website</dir>
@@ -185,7 +182,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,24 +203,13 @@
             <path>
               <item name="ValleyBuilders-website" type="b2602c69:ProjectViewProjectNode" />
               <item name="ValleyBuilders-website" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ValleyBuilders-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ValleyBuilders-website" type="462c0819:PsiDirectoryNode" />
               <item name="Templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ValleyBuilders-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ValleyBuilders-website" type="462c0819:PsiDirectoryNode" />
-              <item name="VB_project2" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -283,7 +268,7 @@
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24960254" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18521462" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -468,25 +453,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/construction_helmet.jpg">
+    <entry file="file://$PROJECT_DIR$/static/img/construction_helmet.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/img/head.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/img/head1.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/img/264705.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/head.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/head1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/header.jpg">
+    <entry file="file://$PROJECT_DIR$/static/img/Construction-Wallpaper-6.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/static/img/grey-wallpaper.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/img/header.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="67" column="53" lean-forward="true" selection-start-line="67" selection-start-column="53" selection-end-line="67" selection-end-column="53" />
+        <state relative-caret-position="134">
+          <caret line="135" column="12" lean-forward="true" selection-start-line="135" selection-start-column="12" selection-end-line="135" selection-end-column="12" />
         </state>
       </provider>
     </entry>
